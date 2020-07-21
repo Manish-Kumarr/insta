@@ -1,11 +1,13 @@
 import React from "react"
 import Layout from "../components/Layout/Layout"
-import Hash from "../components/Hash/Hash"
+import Profile from "../components/Profile/Profile"
 
-export default function Home() {
+const download = () => {
   return (
     <Layout>
-      <Hash />
+      <Profile />
     </Layout>
   )
 }
+
+export default download

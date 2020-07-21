@@ -1,0 +1,62 @@
+@import "../../style/global.scss";
+
+.icon {
+  width: 20px;
+}
+
+.box {
+  overflow: hidden;
+  max-width: 380px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba($color: $blacker, $alpha: 0.3);
+  padding: 20px 15px;
+  margin: 0 auto;
+  word-wrap: break-word;
+}
+
+.fullname {
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.bigImg {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.1);
+}
+
+.btn {
+  margin: -4px 0 5px;
+  padding: 10px 0;
+  width: 100%;
+  a {
+    color: grey;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+.status {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bio {
+  width: 100%;
+  margin: 10px auto;
+}
+.uv {
+  display: flex;
+  justify-content: center;
+}
+.username {
+  display: inline-block;
+}
+.verify {
+  width: 20px;
+  display: inline-block;
+}

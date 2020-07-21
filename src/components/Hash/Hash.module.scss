@@ -1,0 +1,51 @@
+@import "../../style/global.scss";
+
+.icon {
+  width: 20px;
+}
+
+.boxdata {
+  cursor: pointer;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 2px solid grey;
+  border-radius: 8px;
+  padding: 10px;
+  transition: 0.4s;
+  &:hover {
+    border: 2px solid $red;
+    box-shadow: 0 0 10px $red;
+  }
+}
+
+.boxbottom {
+  color: grey;
+  padding: 20px 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.onebyone {
+  margin: 30px auto;
+  max-width: 60%;
+}
+.tagcover {
+  display: inline-block;
+  box-shadow: 0 0 10px rgba($color: $yellow, $alpha: 0.4);
+  border-radius: 25px;
+  padding: 5px 15px;
+  margin: 5px;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 0 10px rgba($color: $red, $alpha: 1);
+    position: relative;
+  }
+}
+
+.tagname {
+  font-size: 20px;
+  color: $red;
+}
+
+.count {
+  font-size: 14px;
+}

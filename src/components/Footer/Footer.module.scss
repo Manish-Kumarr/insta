@@ -1,0 +1,15 @@
+@import "../../style/global.scss";
+.footer {
+  position: relative;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  box-shadow: 0 0 10px rgba($color: $black, $alpha: 0.1);
+  a {
+    color: $yellow;
+    opacity: 0.8;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
